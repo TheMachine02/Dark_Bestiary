@@ -37,7 +37,7 @@ public class ClientProxy extends CommonProxy {
 	@SideOnly(Side.CLIENT)
 	public static void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(ModItems.obsidian_shard, 0, new ModelResourceLocation("darkbestiary:obsidian_shard", "inventory"));
-
+	ModelLoader.setCustomModelResourceLocation(ModItems.phoenix_ash, 0, new ModelResourceLocation("darkbestiary:phoenix_ash", "inventory"));
 
 	}
 

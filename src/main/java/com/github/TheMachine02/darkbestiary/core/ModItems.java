@@ -14,6 +14,8 @@ public class ModItems {
 
 	@GameRegistry.ObjectHolder(DarkBestiary.MODID + ":obsidian_shard")
 	public static Item obsidian_shard = new ItemGeneric("obsidian_shard", "darkbestiary.obsidian_shard");
+	@GameRegistry.ObjectHolder(DarkBestiary.MODID + ":phoenix_ash")
+	public static Item phoenix_ash= new ItemPhoenixAsh();
 
 
 }
