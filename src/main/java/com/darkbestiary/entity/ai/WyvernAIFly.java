@@ -1,0 +1,1 @@
+/*	boss.getMoveHelper().setMoveTo(dest.x, dest.y, dest.z, boss.isChargingAtPlayer() ? 2 : 1);*/
